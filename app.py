@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 
-MODEL_PATH ='model_inception.h5'
+MODEL_PATH ='cnn_cotton.h5'
 
 model = load_model(MODEL_PATH)
 
@@ -25,7 +25,7 @@ def model_predict(img_path, model):
     x = image.img_to_array(img)
     x=x/255
     x = np.expand_dims(x, axis=0)
-    x = preprocess_input(x)
+    #x = preprocess_input(x)
 
     preds = model.predict(x)
 
