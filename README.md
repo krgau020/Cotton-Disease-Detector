@@ -52,7 +52,7 @@ python train.py
 python predict.py --image path/to/leaf.jpg
 
 
-📈 Results
+## 📈 Results
 Validation Accuracy: ~96% (InceptionV3)
 
 Test Accuracy: ~95%
