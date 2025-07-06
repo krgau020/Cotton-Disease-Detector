@@ -45,14 +45,15 @@ pip install -r requirements.txt
 
 3️⃣ Train the model
 
-python train.py
+use files in notebook for training of model on custom data or you can use pretained model saved in models folder
 
 4️⃣ Predict new images
 
-python predict.py --image path/to/leaf.jpg
+refer notebook for predicting on image  OR use app.py 
 
 
-## 📈 Results
+
+**📈Results**
 Validation Accuracy: ~96% (InceptionV3)
 
 Test Accuracy: ~95%
