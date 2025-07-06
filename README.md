@@ -1,10 +1,21 @@
-## Cotton plant and leaf disease prediction
+🚀 Project Overview
+This project detects whether a cotton plant leaf is healthy or diseased using two state-of-the-art CNN architectures:
 
-Used 2 models for predicting whether, if the cotton plant has a disease or not, using the inceptionv3 model and the ResNet50 model.
+  ✅ InceptionV3 — achieves 96% validation accuracy
 
-We see that the inceptionv3 is better in terms of validation accuracy eventhough it has 2 million less params then the ResNet50 application of transfer learning.
-
-Accuracy  of InceptionV3  - 96%
+  ✅ ResNet50 — slightly lower accuracy despite more parameters
 
 
- 
+📂 Dataset
+Images of healthy and diseased cotton leaves.
+
+Preprocessed and split into training, validation, and test sets
+
+
+⚙️ Models Used
+Model	Parameters	Validation Accuracy
+InceptionV3	~21 million	✅ 96%
+ResNet50	~23 million	~94%
+
+Conclusion: InceptionV3 performs better with fewer parameters.
+
